@@ -4,6 +4,7 @@ http://circos.ca
 
 ## Breakdown of the README.md file
 1. [Setup on Mac](#Setup-on-Mac)
+2. [Configuration Files and Design](#Configuration-Files-and-Design)
 
 ## Setup on Mac
 1. Download circos from [here.](http://circos.ca/software/download/circos/)
@@ -26,3 +27,6 @@ http://circos.ca
   d. Install other modules that haven't changed status to okay when running: circos -modules
 11. Add circos-version/bin to your $PATH variable
   a. export PATH=/path/to/circos-version/bin:$PATH
+
+## Configuration Files and Design
+Follow instructions [here](http://circos.ca/documentation/tutorials/configuration/configuration_files/lesson) for more detailed information and customization. 
