@@ -5,6 +5,7 @@ http://circos.ca
 ## Breakdown of the README.md file
 1. [Setup on Mac](#Setup-on-Mac)
 2. [Configuration Files and Design](#Configuration-Files-and-Design)
+3. [Drawing](#Drawing)
 
 ## Setup on Mac
 1. Download circos from [here.](http://circos.ca/software/download/circos/)
@@ -116,3 +117,40 @@ Karyotype file is always required. It should contain the names, sizes and colors
 
 #### Links
 Links represent assiciation between two genomic positions. They are defined using the <link> block inside the <links> block.
+
+### Drawing
+#### Ideogram
+"The chromosome is the entire sequence structure as defined in the karyotype file. The ideogram is the depiction of the chromosome, or region thereof, in the image."[1](http://circos.ca/documentation/tutorials/ideograms/ideograms/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### References
+[1](http://circos.ca/documentation/tutorials/ideograms/ideograms/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
