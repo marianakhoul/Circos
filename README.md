@@ -6,7 +6,6 @@ http://circos.ca
 1. [Setup on Mac](#Setup-on-Mac)
 2. [Configuration Files and Design](#Configuration-Files-and-Design)
 3. [Drawing](#Drawing)
-4. [References](#References)
 
 ## Setup on Mac
 1. Download circos from [here.](http://circos.ca/software/download/circos/)
@@ -123,9 +122,7 @@ Links represent assiciation between two genomic positions. They are defined usin
 #### Ideogram
 "The chromosome is the entire sequence structure as defined in the karyotype file. The ideogram is the depiction of the chromosome, or region thereof, in the image.
 
-A chromosome may have no ideograms (it is not drawn), a single ideogram (it is drawn in its entirety, or only a portion of the chromosome is shown) or multiple ideograms (there is an axis break, multiple regions are drawn).
-
-"[Reference 1](http://circos.ca/documentation/tutorials/ideograms/ideograms/)
+A chromosome may have no ideograms (it is not drawn), a single ideogram (it is drawn in its entirety, or only a portion of the chromosome is shown) or multiple ideograms (there is an axis break, multiple regions are drawn)." [Reference 1](http://circos.ca/documentation/tutorials/ideograms/ideograms/)
 
 The image will be a circular layout. Data tracks appear inside and outside the layout. Tracks can include links and other data representations such as scatter plots, histograms and heatmaps.
 
@@ -148,11 +145,6 @@ The core of the image are the axis definition, placement, size and formatting. E
 
 
 
-
-
-
-### References
-[Reference 1](http://circos.ca/documentation/tutorials/ideograms/ideograms/)
 
 
 
