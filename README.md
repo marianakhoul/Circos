@@ -24,4 +24,5 @@ http://circos.ca
   b. cpanm Config::General Font::TTF::Font Math::Bezier Math::VecStat Readonly Set::IntSpan Text::Format
   c. cpanm --force GD::Polyline --sudo
   d. Install other modules that haven't changed status to okay when running: circos -modules
-  
+11. Add circos-version/bin to your $PATH variable
+  a. export PATH=/path/to/circos-version/bin:$PATH
