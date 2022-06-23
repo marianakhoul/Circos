@@ -3,7 +3,7 @@
 http://circos.ca
 
 ## Breakdown of the README.md file
-1. [Setup](#Setup-on-Mac)
+1. [Setup on Mac](#Setup-on-Mac)
 
 ## Setup on Mac
 1. Download circos from [here.](http://circos.ca/software/download/circos/)
