@@ -130,11 +130,34 @@ The core of the image are the axis definition, placement, size and formatting. E
 
 <ideogram> block is dedicated to controlling the format of the ideograms.
 
+#### Karyotype File
+This file creates the outward band of the ideogram with the breaks for the chromosomes. 
 
+Example
+```
+chr - CHRNAME CHRLABEL START END COLOR
+chr - chr1 1 0 5000000 spectral-5-div-1
+chr - chr2 2 0 10000000 spectral-5-div-2
+chr - chr3 3 0 20000000 spectral-5-div-3
+chr - chr4 4 0 50000000 spectral-5-div-4
+chr - chr5 5 0 100000000 spectral-5-div-5
+```
 
+<ideogram>
+<spacing>
+  #the spacing is for the space between the chromosome breaks of the karyotype
+</spacing>
+</ideogram>
 
-
-
+#### Link file
+Create the links between 2 chromosomes.
+  
+Example
+```
+chr1 10 20 chr2 400 450 color=blue
+chr3 1029 2000 chr14 88292982 9292881 color=pink
+```
+bezier_radius is the variable inside the <link> block that determines the shape of the link.
 
 
 
