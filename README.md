@@ -30,3 +30,46 @@ http://circos.ca
 
 ## Configuration Files and Design
 Follow instructions [here](http://circos.ca/documentation/tutorials/configuration/configuration_files/lesson) for more detailed information and customization. 
+
+Configuration file will hold all variables and values needed to customize your images. You can construct it from scratch (Not advisable) or use an already built one and customize it to your liking.
+Configuration file is named as circos.conf and has a variable = value format.
+
+Configuration files have blocks and blocks can have multiple instances. Make sure to close all your configuration blocks to avoid error.
+```
+<ideogram> #open the block
+ thickness = 30p
+ fill      = yes
+</ideogram> # close the block
+```
+
+### Format
+```
+<plots> # global variables assigned in here
+
+#global variable
+fill_color = blue
+
+<plot> #local vairables assinged in here
+fill_color = grey # overrides the gloabl variable where fill_color = blue
+
+</plot>
+
+</plots>
+```
+
+### External imports syntax
+```
+# these 2 files should always be included (imported from /etc directory)
+<<include etc/colors_fonts_patterns.conf>>
+<<include etc/housekeeping.conf>>
+```
+You can include files anywhere in the conf file, even inside plot blocks.
+
+#### Images
+```
+<image>
+<<include ect/image.conf>>
+file* = myfile.png #overriding file parameter inside ect/image.conf
+</image>
+```
+
