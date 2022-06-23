@@ -1,6 +1,5 @@
 # Circos
-
-http://circos.ca
+Repository where I keep information and syntax on how to use the [circos](http://circos.ca) package.
 
 ## Breakdown of the README.md file
 1. [Setup on Mac](#Setup-on-Mac)
