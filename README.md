@@ -158,7 +158,56 @@ chr3 1029 2000 chr14 88292982 9292881 color=pink
 ```
 bezier_radius is the variable inside the <link> block that determines the shape of the link.
 
+#### Example
+```
+<<include colors_fonts_patterns.conf>>
 
+<<include ideogram.conf>>
+<<include ticks.conf>>
+
+<image>
+<<include etc/image.conf>>
+</image>
+  
+#comes with the circos package  
+karyotype   = data/karyotype/karyotype.human.txt
+
+chromosomes_units = 1000000
+chromosomes_display_default = no
+chromosomes       = hs1;hs2;hs3 # subsets to only these 3 chromosomes
+
+# the general links have the local variables inside the <links>
+# there are 2 special link with orange and green links for the link data provided in the file variable
+<links>
+
+z      = 0
+radius = 0.975r
+crest  = 0.5
+bezier_radius        = 0.5r
+bezier_radius_purity = 0.75
+
+<link>
+z            = 50
+color        = green_a2
+thickness    = 4
+file         = data/5/segdup.bundle3.txt
+bezier_radius_purity = 0.2
+crest = 1
+</link>
+
+<link>
+z            = 40
+color        = orange_a2
+thickness    = 4
+file         = data/5/segdup.bundle2.txt
+bezier_radius_purity = 0.2
+crest = 1
+</link>
+</links>
+  
+<<include etc/housekeeping.conf>>
+data_out_of_range* = trim # overriding the data_out_of_range variable
+```
 
 
 
