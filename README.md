@@ -69,7 +69,50 @@ You can include files anywhere in the conf file, even inside plot blocks.
 ```
 <image>
 <<include ect/image.conf>>
-file* = myfile.png #overriding file parameter inside ect/image.conf
+file* = myfile.png #overriding file parameter inside ect/image.conf, add the astrix to indicate a new value
 </image>
 ```
 
+#### Minimal Configuration File
+```
+# circos.conf
+
+karyotype = data/karyotype/karyotype.human.txt
+
+<ideogram>
+
+<spacing>
+default = 0.005r
+</spacing>
+
+radius    = 0.9r
+thickness = 20p
+fill      = yes
+
+</ideogram>
+
+################################################################
+# The remaining content is standard and required. It is imported 
+# from default files in the Circos distribution.
+#
+# These should be present in every Circos configuration file and
+# overridden as required. To see the content of these files, 
+# look in etc/ in the Circos distribution.
+
+<image>
+# Included from Circos distribution.
+<<include etc/image.conf>>
+</image>
+
+# RGB/HSV color definitions, color lists, location of fonts, fill patterns.
+# Included from Circos distribution.
+<<include etc/colors_fonts_patterns.conf>>
+
+# Debugging, I/O an dother system parameters
+# Included from Circos distribution.
+<<include etc/housekeeping.conf>>
+```
+Karyotype file is always required. It should contain the names, sizes and colors for the chomosomes that will be displayed in the image. Ideogram defines where the image should appear. Uses the <ideogram> block and has parameters radius, thickness and fill. <spacing> is used to define the separations between ideograms on the figure.
+
+#### Links
+Links represent assiciation between two genomic positions. They are defined using the <link> block inside the <links> block.
