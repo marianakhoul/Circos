@@ -150,7 +150,8 @@ chr - chr5 5 0 100000000 spectral-5-div-5
 
 #### Link file
 Create the links between 2 chromosomes.
-  
+Format: chromosome1 startposition1 endposition1 chromosome2 startposition2 endposition2
+
 Example
 ```
 chr1 10 20 chr2 400 450 color=blue
