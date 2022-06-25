@@ -218,8 +218,8 @@ When circos is added to your path, you can run it like so
 circos -conf /path/to/circos.conf
 ```
 
-##Examples
-![](Image1/circos3.png)<!-- -->
+## Examples
+![](Image1/circos3.png width="48")<!-- -->
 
 
 
