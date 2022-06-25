@@ -219,7 +219,7 @@ circos -conf /path/to/circos.conf
 ```
 
 ##Examples
-
+![](Chi-Squared-Test_files/Chi-square%20test%20formula.png)<!-- -->
 
 
 
