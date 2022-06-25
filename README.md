@@ -217,6 +217,11 @@ When circos is added to your path, you can run it like so
 ```
 circos -conf /path/to/circos.conf
 ```
+If circos is not added to your path, you can run it like so
+```
+/path/to/circos -conf /path/to/circos.conf
+```
+It is best to add the ciros to your $PATH variable to be able to use it from anywhere
 
 ## Examples
 [Image 1](Image1)
