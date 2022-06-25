@@ -6,6 +6,7 @@ Repository where I keep information and syntax on how to use the [circos](http:/
 2. [Configuration Files and Design](#Configuration-Files-and-Design)
 3. [Drawing](#Drawing)
 4. [Running Circos](#Running-Circos)
+5. [Examples](#Examples)
 
 ## Setup on Mac
 1. Download circos from [here.](http://circos.ca/software/download/circos/)
@@ -216,6 +217,8 @@ When circos is added to your path, you can run it like so
 ```
 circos -conf /path/to/circos.conf
 ```
+
+##Examples
 
 
 
