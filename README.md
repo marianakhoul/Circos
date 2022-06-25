@@ -159,7 +159,7 @@ Example
 chr1 10 20 chr2 400 450 color=blue
 chr3 1029 2000 chr14 88292982 9292881 color=pink
 ```
-bezier_radius is the variable inside the <link> block that determines the shape of the link.
+**bezier_radius** is the variable inside the <link> block that determines the shape of the link.
 
 #### Example
 ```
