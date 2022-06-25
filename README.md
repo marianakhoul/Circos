@@ -219,7 +219,8 @@ circos -conf /path/to/circos.conf
 ```
 
 ## Examples
-![Image1/circos3.png]<img src=https://github.com/marianakhoul/Circos/blob/main/Image1/circos3.png width=400 height=400>
+[Image 1](Image1)
+![]<img src=https://github.com/marianakhoul/Circos/blob/main/Image1/circos3.png width=400 height=400>
 
 
 
