@@ -229,6 +229,9 @@ It is best to add the ciros to your $PATH variable to be able to use it from any
 <img src=https://github.com/marianakhoul/Circos/blob/main/Image1/circos3.png width=400 height=400>
 
 
+[Image 2](Image2)
+
+<img src=https://github.com/marianakhoul/Circos/blob/main/Image2/circos.png width=400 height=400>
 
 
 
