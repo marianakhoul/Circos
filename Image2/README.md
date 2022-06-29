@@ -23,7 +23,7 @@ Chromosome, start, end, CNV value
 The Karyotype file used for the bands around the image were from the circos package found in **data/karyotype/karyotype.human.hg38.txt** since the data was mapped to hg38.
 
 ## Heatmap
-The heatmap was added using the following code block. r1 and r2 represent where the heatmap portion would lie with respect to the bands. color = rdbu-7-div-rev gave the red, blue, grey coloring of the CNV with red being amplification and blue being deletions.
+The heatmap was added using the following code block. r1 and r2 represent where the heatmap portion would lie with respect to the bands. rules gave the red, blue, grey coloring of the CNV with red being amplification and blue being deletions.
 ```
 <plots>
 <plot>
@@ -31,7 +31,29 @@ type 		   = heatmap
 file 		   = data/heatmap.txt
 r1      = 0.975r
 r0      = 0.9r
-color = rdbu-7-div-rev
+
+<rules>
+<rule>
+condition	  = var(value)>=0 && var(value) <1
+color 		  = vdblue
+</rule>
+<rule>
+condition	  = var(value)>=1 && var(value) <1.5
+color 		  = lblue
+</rule>
+<rule>
+condition	  = var(value)>=1.5 && var(value) <2.5
+color 		  = vlgrey
+</rule>
+<rule>
+condition	  = var(value)>=2.5 && var(value) <3.5
+color 		  = lred
+</rule>
+<rule>
+condition	  = var(value)>=3.5
+color 		  = vdred
+</rule>
+</rules>
 </plot>
 </plots>
 ```
