@@ -240,6 +240,10 @@ It is best to add the ciros to your $PATH variable to be able to use it from any
 
 <img src=https://github.com/marianakhoul/Circos/blob/main/Image4/circos.png width=400 height=400>
 
+[Image 5](Image5)
+
+<img src=https://github.com/marianakhoul/Circos/blob/main/Image5/circos.png width=400 height=400>
+
 
 
 
