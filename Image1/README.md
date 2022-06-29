@@ -10,7 +10,7 @@ chr3 1029 2000 chr14 88292982 9292881 color=pink
 ```
 Each type of structural variant was given a color and the ones which weren't of importance got the color black.
 
-The Karyotype file used for the bands around the image were from the circos package found in **data/karyotype/karyotype.human.hg19.txt** since the data was mapped to hg19.
+The Karyotype file used for the bands around the image were from the circos package found in **data/karyotype/karyotype.human.hg38.txt** since the data was mapped to hg38.
 
 ### Links
 thickness    = 10 to give more bold links between the chromosomes
